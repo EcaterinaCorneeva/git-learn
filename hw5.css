@@ -1,0 +1,52 @@
+div{
+    height: 200px;
+    text-align: center;
+    border: 1px solid;
+
+}
+.animi {
+    color: red;
+    font-size: larger;
+}
+q{
+    color: blue;
+}
+q[title]{
+    font-weight: bold;
+    font-style: italic;
+    color: green;
+}
+
+a[href^="https://"]{
+    background-color: yellow;
+}
+
+h1, h2, h3{
+    font-family: Georgia;
+}
+
+input:hover{
+    background-color: yellow;
+}
+
+input:not([type="date"]){
+    color: blue;
+}
+
+input:focus{
+    color: green;
+}
+
+ul > li:nth-child(odd) {
+    background-color: black;
+    color: yellow;
+}
+
+ul > li:nth-child(even) {
+    background-color: yellow;
+    color: black;
+}
+
+ul > li:nth-child(4){
+    background-color: orange;
+}
